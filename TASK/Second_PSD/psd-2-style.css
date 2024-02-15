@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+.gfa{
+    color: rgb(175, 172, 172);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+li{
+    display: inline;
+    padding: 10px 30px;
+}
+#ca{
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+.container-1{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+#p1h1{
+    font-size: 80px;
+    margin: 40px 70px;
+    font-weight: 800;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 40px 70px;
+
+}
+#btn-1{
+    margin-left: 80px;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.page-1{
+    background-image: url(../../TASK/Second_PSD/image-psd-2/Scribble\ Dark.png) , url(../../TASK/Second_PSD/image-psd-2/back-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom , left 0px bottom 0px;
+    background-size: 100px , 400px;
+
+}px
+.col-60{
+    margin-right: 60px;
+}
+.page-2{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../TASK/Second_PSD/image-psd-2/Scribble\ Light.png) , url(../../TASK/Second_PSD/image-psd-2/back-2.png);
+    background-repeat: no-repeat;
+    background-position: left top , right top 300px;
+    height: 380px , 380px ;
+    
+    
+
+}
+#p2h2{
+    width: 25%;
+    font-size: 50px;
+    margin: 40px 70px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+  
+}
+#p2p1{
+    color: white;
+    width: 40%;
+}
+#btn-2{
+    border-color: white;
+    border-radius: 2px;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+.page-3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: centre;
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+    background-image: url(../../TASK/Second_PSD/image-psd-2/back-3-1.png) , url(../../TASK/Second_PSD/image-psd-2/back-3-2.png);
+    background-repeat: no-repeat;
+    background-position: left top , right bottom ;
+    background-size: 100px , 60px;
+
+}
+#p3d1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+#p3d2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#p3d3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loru{
+      font-size: 33px;
+}
+.p3p3{
+    font-size: large;
+}
+.page-4{
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../TASK/Second_PSD/image-psd-2/back-4.png) , url(../../TASK/Second_PSD/image-psd-2/back-4-2.png);
+    background-repeat: no-repeat;
+    background-size: 200px , 300px;
+    background-position: left 60px bottom , right;
+}
+#p4h2{
+     margin-top: 40px;
+    font-size: 60px;
+}
+.textt{
+    margin-top: 40px;
+}
+.box-5-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    
+}
+.page-5{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../TASK/Second_PSD/image-psd-2/icons8-arrow-50.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100px;
+    margin-right: 40px;
+}
+.box-5-2-1{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+}
+.box-5-2-2{
+    display: flex;
+    flex-direction: row;
+    font-weight: 900;
+}
+#b5{
+    margin-left: 30px;
+    text-decoration: underline;
+    font-size: 45px;
+}
+.box-5-2-3{
+    font-size: 15px;
+}
+.page-6{
+    display: flex;
+    flex-direction: row;
+   
+    background-color: black;
+    background-image: url(../../TASK/Second_PSD/image-psd-2/page-6-background.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: left bottom;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.page-6-1-1{
+    color: white;
+    
+}
+
+.page-6-2 img{
+   width: 700px;
+    padding-top: 40px;
+    padding-left: 40px;
+    color: white;
+    font-size: 80px;
+    
+}
+#tag{
+    color: white;
+    font-size: 70px;
+    padding-left: 80px;
+}
+.page-7{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+.page-7-1-2{
+    
+}
+.p-7-2-1{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+.plus{
+    margin-top: 37px;
+}
+#heading-p7{
+       font-size: 60px;
+       font-weight: 900;
+}
+.line{
+    width: 80%;
+}
+.men-seat{
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.page-8{
+    padding-bottom: 50px;
+    background-image: url(../../TASK/Second_PSD/image-psd-2/page-8Back.png) , url(../../TASK/Second_PSD/image-psd-2/BACK-8-2.png);
+    background-repeat: no-repeat;
+    background-position: top left , right bottom;
+    background-size: 300px , 300px;
+
+}
+#haeding-8{
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+   
+}
+.page-8-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.page-8-2-1{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 30%;
+}
+.page-8-2-2{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 30%;
+}
+.page-8-2-3{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 30%;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.page-9{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.page-9-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+#heading-9{
+font-size: 70px;
+
+}
+.inpt{
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    color: black;
+}
+#writesomething{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+}
+.btn-9{
+    height: 40px;
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+.page-9-2{
+    margin-left: 250px;
+}
+.page-10{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(163, 161, 161);
+    background-image: url(../../TASK/Second_PSD/image-psd-2/page10backg.png);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    background-size: 400px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.mylogs{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
+.last-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.li-1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.li-2{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.li-3{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+#spcll{
+    font-size: 15px;
+}
