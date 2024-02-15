@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Car</title>
+    <style>
+        .traffic{
+            display: flex;
+            justify-content: center;
+            margin-top: 150px;
+        }
+        .road{
+            width: 500px;
+            height: 500px;
+            background-color: gray;
+            display: flex;
+            justify-content: center;
+        }
+        .garden{
+            width: 350px;
+            height: 350px;
+            background-color: rgb(32, 210, 32);
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .lightPole{
+            width: 50px;
+            height: 150px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 100px;
+            border-radius: 20px;
+        }
+        .red{
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            border-radius: 50%;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .yellow{
+            width: 30px;
+            height: 30px;
+            background-color: yellow;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+        .green{
+            width: 30px;
+            height: 30px;
+            background-color:green;
+            border-radius: 50%;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .car{
+            width: 80px;
+            height: 80px;
+            left: 10px;
+            top: 20px;
+            animation-name: carMove;
+            animation-duration: 5s;
+            /*animation-iteration-count: infinite;*/
+        }
+        @keyframes carMove {
+            0%{
+                margin-left: 0px;
+                margin-top: 0px;
+            }
+            100%{
+                margin-left: 270px;
+                margin-top: 0px;
+            }
+ }
+    </style>
+</head>
+<body>
+    <div class="traffic">
+    <div class="road">
+        <div>
+           <img class="car" src="../021_Animation_Car/images/car-removebg-preview.png" alt="">
+        <div class="garden">
+            <div class="lightPole">
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="green"></div>
+            </div>
+        </div>
+       </div>
+    </div>
+</div>
+</body>
+</html>
